@@ -1,7 +1,7 @@
 export default class Obstacle {
     constructor(canvasWidth, canvasHeight) {
         this.x = Math.random() * canvasWidth;
-        this.y = y * canvasHeight;
+        this.y = Math.random() * canvasHeight;
         this.width = 30;
         this.height = 30;
         const r = Math.floor(Math.random()*255);
